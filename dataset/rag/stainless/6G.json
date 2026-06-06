@@ -1,0 +1,73 @@
+{
+  "material": "stainless",
+  "position": "6G",
+  "position_description": "45° 경사 고정. 스테인리스 자격증의 최고 난이도. 자세 + 백퍼지 + 입열 관리 종합.",
+  "source_ids": ["summary_stainless", "video_ss_6g", "summary_posture_6g"],
+  "parameters": {
+    "tungsten": "2% Lanthanated, Ø2.4mm",
+    "filler_rod": "ER308L/ER316L, Ø2.4mm",
+    "shielding_gas": "100% Argon, 12~14 LPM",
+    "backing_gas": "100% Argon, 5~8 LPM",
+    "polarity": "DCEN",
+    "root_pass_amp": "75~95A (구간별 페달 조절)",
+    "fill_cap_amp": "85~105A",
+    "interpass_temp_max": "175°C",
+    "technique": "Walking the cup",
+    "root_gap": "2.4mm",
+    "land": "1.5mm"
+  },
+  "entries": [
+    {
+      "type": "expert_tip",
+      "stage": "preparation",
+      "tip": "6G 스테인리스는 백퍼지 누설이 가장 큰 변수. 양 끝 마스킹은 종이 테이프 + 알루미늄 호일 이중. 측정 가능하면 산소계로 50ppm 이하 확인."
+    },
+    {
+      "type": "expert_tip",
+      "stage": "root_pass",
+      "tip": "스테인리스 6G는 탄소강 6G보다 입열에 더 민감하다. 모든 구간에서 페달을 10~15% 덜 밟는다는 감각으로 가라."
+    },
+    {
+      "type": "expert_tip",
+      "stage": "root_pass",
+      "tip": "6시 오버헤드 구간에서는 풀이 떨어지기 직전 와이어를 추가로 한 번 더 찍어 풀을 식히면서 받쳐 준다."
+    },
+    {
+      "type": "expert_tip",
+      "stage": "posture",
+      "tip": "낮은자세는 무릎 한쪽을 꿇고 다른 발은 90°로 세워 균형. 높은자세는 다리 어깨너비, 등을 곧게."
+    },
+    {
+      "type": "expert_tip",
+      "stage": "posture",
+      "tip": "스테인리스 6G는 한 호흡 = 한 와이어 찍기 리듬으로 가면 손 떨림이 적다."
+    },
+    {
+      "type": "defect_solution",
+      "defect": "black_back_bead_in_6oclock",
+      "cause": "6시 부근에서 풀이 처져 갭이 더 벌어지고 백퍼지 가스가 빠져나감.",
+      "solution": "6시 구간 전류 더 낮춤, 진행 속도 균일, 마스킹 누설 재점검. 양 끝 봉지 안 부풀어 있는지 확인."
+    },
+    {
+      "type": "defect_solution",
+      "defect": "warping",
+      "cause": "다층 용접에서 인터패스 온도 관리 실패, 한쪽으로 비드 쌓임.",
+      "solution": "175°C 이하 유지, 비드를 대칭으로 쌓고, 각 패스 후 식힌다."
+    },
+    {
+      "type": "qa",
+      "question": "6G 스테인리스에서 가장 어려운 구간은?",
+      "answer": "6시(오버헤드)와 3시→6시로 내려가는 구간입니다. 풀이 처지면서 백퍼지도 빠지기 쉬워 백비드 색이 가장 잘 망가집니다."
+    },
+    {
+      "type": "qa",
+      "question": "6G 스테인리스 인터패스 온도는 어떻게 재요?",
+      "answer": "온도 크레용(temp stick) 175°C 또는 적외선 온도계로 비드 옆 10mm 지점을 측정. 닿으면 즉시 떼야 할 정도(약 60°C 이상)면 다음 패스 들어가지 마세요."
+    },
+    {
+      "type": "qa",
+      "question": "6G 자세를 어디까지 연습해야 하나요?",
+      "answer": "낮은자세/높은자세 두 자세를 자연스럽게 전환하고, 6시·3시·12시 구간에서 각각 30초씩 비드 없이 자세만 유지할 수 있을 때 자격 시험 수준입니다."
+    }
+  ]
+}

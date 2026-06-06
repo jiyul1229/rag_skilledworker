@@ -1,0 +1,84 @@
+{
+  "material": "aluminum",
+  "position": "2G",
+  "position_description": "파이프 수직, 용접선 수평. 알루미늄은 AC + 청정작용이 핵심.",
+  "source_ids": ["summary_aluminum", "video_al_2g"],
+  "parameters": {
+    "tungsten": "2% Lanthanated 또는 Zirconiated, Ø3.2mm, 끝은 뾰족 + 살짝 둥글게(공 모양 자동 형성)",
+    "filler_rod": "ER4043 (일반) 또는 ER5356 (강도), Ø2.4~3.2mm",
+    "shielding_gas": "100% Argon, 15~18 LPM (두꺼우면 He 25~50% 첨가)",
+    "backing_gas": "보통 불필요",
+    "polarity": "AC (교류)",
+    "ac_balance_cleaning": "30~35% EP (청정작용)",
+    "ac_frequency": "80~120Hz (좁고 집중된 아크)",
+    "root_pass_amp": "120~160A (3mm 두께 기준)",
+    "fill_cap_amp": "140~180A",
+    "preheat": "100~150°C (두꺼운 파이프 ≥6mm)",
+    "root_gap": "2.0~2.4mm"
+  },
+  "entries": [
+    {
+      "type": "expert_tip",
+      "stage": "preparation",
+      "tip": "알루미늄 산화막은 모재 녹는점보다 3배 이상 높다. 스테인리스 전용 와이어 브러시로 용접 직전(30분 이내)에 닦아내라. 닦은 브러시는 다른 금속에 절대 사용 금지."
+    },
+    {
+      "type": "expert_tip",
+      "stage": "preparation",
+      "tip": "두께 6mm 이상은 100~150°C 예열. 큰 알루미늄은 열을 빨아가서 예열 없이 시작하면 시작점만 못 녹는다."
+    },
+    {
+      "type": "expert_tip",
+      "stage": "root_pass",
+      "tip": "AC 발란스는 청정작용(EP) 30~35%가 표준. 너무 높이면 텅스텐이 빨리 닳고, 너무 낮으면 산화막이 안 깨진다."
+    },
+    {
+      "type": "expert_tip",
+      "stage": "root_pass",
+      "tip": "알루미늄은 색 변화가 거의 없다가 갑자기 녹는다. 풀이 반짝이며 흔들리기 시작하면 즉시 와이어 투입."
+    },
+    {
+      "type": "expert_tip",
+      "stage": "root_pass",
+      "tip": "와이어는 풀 가장자리에 빠르게 찍었다 빼라. 깊이 박으면 텅스텐에 산화막이 옮겨붙어 아크가 흔들린다."
+    },
+    {
+      "type": "expert_tip",
+      "stage": "general",
+      "tip": "알루미늄은 열전도가 빨라 진행 속도가 강철보다 1.5~2배 빠르다. 멈추면 바로 처진다."
+    },
+    {
+      "type": "defect_solution",
+      "defect": "porosity",
+      "cause": "수소 흡수. 산화막, 기름, 수분, 가스 유량 부족, 텅스텐 오염.",
+      "solution": "용접 직전 산화막 제거, 모재 청결, 가스 15 LPM 이상, 텅스텐 끝 청결 유지. 의심되면 모재를 가볍게 예열해 수분 제거."
+    },
+    {
+      "type": "defect_solution",
+      "defect": "tungsten_blackening",
+      "cause": "AC 발란스에서 EN 비중 부족, 또는 전류 과다로 텅스텐 끝이 녹음.",
+      "solution": "AC 발란스 EN 65~70%로 조정, 전류 하향, 텅스텐 굵기를 한 단계 키워라(Ø2.4 → Ø3.2)."
+    },
+    {
+      "type": "defect_solution",
+      "defect": "lack_of_fusion_at_start",
+      "cause": "시작점에서 열이 부족, 산화막이 안 깨짐.",
+      "solution": "예열 또는 시작점에서 페달을 잠깐 더 밟아 풀을 만든 뒤 진행. 시작 전 1초간 아크만 켜서 산화막 제거."
+    },
+    {
+      "type": "qa",
+      "question": "알루미늄은 왜 AC를 쓰나요?",
+      "answer": "AC의 양극 사이클(EP)이 산화막을 청정작용으로 깨뜨리고, 음극 사이클(EN)이 모재를 녹입니다. DC만으로는 산화막 때문에 풀이 안 만들어집니다."
+    },
+    {
+      "type": "qa",
+      "question": "알루미늄 텅스텐 끝은 어떻게 갈아야 하나요?",
+      "answer": "처음엔 뾰족하게 갈고, AC를 켜면 끝이 자동으로 작은 공 모양이 됩니다. 그 공이 텅스텐 굵기보다 크면 전류가 과다하다는 뜻이니 조정하세요."
+    },
+    {
+      "type": "qa",
+      "question": "알루미늄 2G에서 비드가 자꾸 처지는데요?",
+      "answer": "진행 속도를 더 빠르게 하고, 토치를 살짝 위로 기울이세요. 알루미늄은 점도가 낮아 풀이 강철보다 잘 흐릅니다. 전류도 5~10A 낮춰 보세요."
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+#!/bin/bash
+# rag — 통합 CLI 진입점.
+# 사용법은 ./rag help 참고. 어디서든 호출 가능 (경로 자동 해결).
+DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+exec ~/.venv/bin/python "$DIR/cli.py" "$@"

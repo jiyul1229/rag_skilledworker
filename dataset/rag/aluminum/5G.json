@@ -1,0 +1,68 @@
+{
+  "material": "aluminum",
+  "position": "5G",
+  "position_description": "수평 고정 알루미늄 파이프, 좁은 갭(narrow gap)에서 lay wire 기법.",
+  "source_ids": ["summary_aluminum", "video_al_5g"],
+  "parameters": {
+    "tungsten": "2% Lanthanated, Ø3.2mm",
+    "filler_rod": "ER4043 또는 ER5356, Ø2.4mm",
+    "shielding_gas": "100% Argon, 15~18 LPM",
+    "polarity": "AC",
+    "ac_balance_cleaning": "30~35% EP",
+    "ac_frequency": "100~150Hz (좁은 갭에 집중된 아크 필요)",
+    "root_pass_amp": "110~150A (구간별 페달)",
+    "fill_cap_amp": "130~170A",
+    "preheat": "100~150°C (두꺼운 파이프)",
+    "technique": "Lay wire (좁은 갭에 와이어를 미리 깔고 녹이는 방식)",
+    "root_gap": "1.6~2.4mm"
+  },
+  "entries": [
+    {
+      "type": "expert_tip",
+      "stage": "preparation",
+      "tip": "5G 알루미늄은 좁은 갭일수록 산화막 제거 품질이 결정적. 갭 내부까지 브러시가 들어가야 한다."
+    },
+    {
+      "type": "expert_tip",
+      "stage": "root_pass",
+      "tip": "Lay wire는 와이어를 갭 안에 미리 누이고 끝부터 녹여 들어가는 방식. 5G 6시 구간에서 손 떨림 영향이 적어 유리."
+    },
+    {
+      "type": "expert_tip",
+      "stage": "root_pass",
+      "tip": "AC 주파수를 100Hz 이상으로 올리면 아크가 좁고 집중돼 좁은 갭에서도 옆 모재가 안 녹는다."
+    },
+    {
+      "type": "expert_tip",
+      "stage": "root_pass",
+      "tip": "5G 알루미늄에서 12시 구간은 풀이 가장 빨리 자란다. 페달을 빠르게 떼고 진행 속도를 1.5배."
+    },
+    {
+      "type": "expert_tip",
+      "stage": "fill_cap",
+      "tip": "필패스 사이 인터패스 65°C 이하 유지. 알루미늄은 열을 빠르게 머금어 누적되면 모재 강도가 떨어진다(특히 5xxx 계열)."
+    },
+    {
+      "type": "defect_solution",
+      "defect": "narrow_gap_porosity",
+      "cause": "좁은 갭 내부에 기름이나 산화막 잔존. 가스 차폐가 갭 안까지 못 닿음.",
+      "solution": "갭 내부까지 솔벤트(아세톤) + 스테인리스 브러시로 청소. 토치를 갭에 더 가깝게, 가스 유량 18 LPM."
+    },
+    {
+      "type": "defect_solution",
+      "defect": "12oclock_sag",
+      "cause": "12시 구간 입열 누적, 진행 정지.",
+      "solution": "12시 구간에서 페달 70% 이하, 진행 속도 1.5배. 한 바퀴 다 돌리지 말고 구간별로 끊어 식혀라."
+    },
+    {
+      "type": "qa",
+      "question": "5G 알루미늄에서 lay wire가 강철과 다른 점은?",
+      "answer": "와이어 굵기를 갭 폭에 정확히 맞춰야 합니다. 알루미늄은 산화막 때문에 와이어가 모재에 안 닿으면 안 녹습니다. 와이어를 누이고 끝을 모재에 밀착시키세요."
+    },
+    {
+      "type": "qa",
+      "question": "5G 알루미늄에서 AC 주파수는 얼마가 좋나요?",
+      "answer": "좁은 갭이면 100~150Hz로 높이세요. 아크가 좁아져 옆 모재가 덜 녹고 갭 안쪽만 정확히 녹습니다. 두꺼운 파이프 캡 패스에서는 60~80Hz로 낮춰 비드 폭을 넓힐 수 있습니다."
+    }
+  ]
+}

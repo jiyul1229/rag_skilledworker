@@ -1,0 +1,62 @@
+{
+  "material": "stainless",
+  "position": "2G",
+  "position_description": "파이프 수직, 용접선 수평. 키홀 기법으로 진행.",
+  "source_ids": ["summary_stainless", "video_ss_2g"],
+  "parameters": {
+    "tungsten": "2% Lanthanated, Ø2.4mm",
+    "filler_rod": "ER308L/ER316L, Ø2.4mm",
+    "shielding_gas": "100% Argon, 10~12 LPM",
+    "backing_gas": "100% Argon, 5~8 LPM",
+    "polarity": "DCEN",
+    "root_pass_amp": "85~100A (영상 기준 100A, SCH10)",
+    "fill_cap_amp": "90~110A",
+    "technique": "Keyhole + Walking the cup",
+    "root_gap": "2.4mm",
+    "land": "1.5mm"
+  },
+  "entries": [
+    {
+      "type": "expert_tip",
+      "stage": "root_pass",
+      "tip": "2G 스테인리스는 키홀(keyhole) 기법이 표준. 갭을 정확히 뚫어 동전 모양 키홀을 만들고 그걸 따라간다."
+    },
+    {
+      "type": "expert_tip",
+      "stage": "root_pass",
+      "tip": "SCH10처럼 얇은 파이프는 입열에 민감하다. 페달을 70% 이상 밟지 마라. 풀이 늘어지면 즉시 페달 떼고 식혀라."
+    },
+    {
+      "type": "expert_tip",
+      "stage": "root_pass",
+      "tip": "2G는 위쪽 토(top toe)에 미용착이 잘 생긴다. 위빙 시 위쪽에 살짝 더 머물러라."
+    },
+    {
+      "type": "expert_tip",
+      "stage": "fill_cap",
+      "tip": "캡 비드 색은 짚색을 목표로. 청색이 보이면 진행 속도가 느리거나 전류가 높은 신호."
+    },
+    {
+      "type": "defect_solution",
+      "defect": "sagging_root",
+      "cause": "얇은 파이프인데 입열 과다. 풀이 중력에 못 버팀.",
+      "solution": "전류 5~10A 하향, 진행 속도 빠르게. 와이어를 자주 찍어 풀을 식혀라."
+    },
+    {
+      "type": "defect_solution",
+      "defect": "top_toe_undercut",
+      "cause": "캡에서 위쪽 토에 머무는 시간 부족.",
+      "solution": "위쪽 토에서 0.5초 머물고 와이어 한 번 찍기. 위빙 폭은 작게."
+    },
+    {
+      "type": "qa",
+      "question": "2G 스테인리스 SCH10에서 전류 얼마가 적당한가요?",
+      "answer": "100A 전후가 표준이지만 페달로 조절합니다. 키홀이 너무 크면 페달을 떼고, 안 뚫리면 살짝 더 밟으세요."
+    },
+    {
+      "type": "qa",
+      "question": "2G에서 위쪽 토 미용착을 어떻게 막나요?",
+      "answer": "토치 끝을 위쪽 토에 살짝 더 머물게 하고, 위빙 끝점을 정확히 모재 위에 멈추세요. 와이어도 위쪽에 한 번 더 찍어주세요."
+    }
+  ]
+}

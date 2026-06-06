@@ -1,0 +1,71 @@
+{
+  "material": "carbon_steel",
+  "position": "5G",
+  "position_description": "파이프 수평 고정, 토치가 360° 이동. 상향(uphill)으로 6시→12시 진행.",
+  "source_ids": ["summary_carbon_steel", "video_cs_5g"],
+  "parameters": {
+    "tungsten": "2% Ceriated, Ø2.4mm",
+    "filler_rod": "ER70S-2, Ø2.4mm",
+    "shielding_gas": "100% Argon, 12~15 LPM",
+    "polarity": "DCEN",
+    "root_pass_amp": "85~105A (페달로 6시→3시→12시 구간별 조절)",
+    "fill_cap_amp": "95~120A",
+    "technique": "Lay wire 또는 Cup walking",
+    "root_gap": "2.4mm",
+    "land": "1.5~2.0mm"
+  },
+  "entries": [
+    {
+      "type": "expert_tip",
+      "stage": "root_pass",
+      "tip": "5G는 시계 구간별로 전류 감각이 다르다. 6시(오버헤드)는 낮게, 3시·9시(수평)는 중간, 12시(평판)는 약간 높게."
+    },
+    {
+      "type": "expert_tip",
+      "stage": "root_pass",
+      "tip": "레이 와이어(lay wire) 기법은 와이어를 갭 안에 길게 누이고 끝만 녹이는 방식. 초보자에게 입열 안정성에서 유리."
+    },
+    {
+      "type": "expert_tip",
+      "stage": "root_pass",
+      "tip": "컵 워킹(cup walking)은 컵을 V홈 양쪽에 걸쳐 좌우로 흔들며 진행. 손 떨림이 잡히지만 컵 가스 차폐 거리가 늘어나니 가스 유량을 1~2 LPM 더 준다."
+    },
+    {
+      "type": "expert_tip",
+      "stage": "root_pass",
+      "tip": "6시 구간은 토치 각도를 거의 수직(약 80°)으로 세워야 가스 차폐가 풀에 닿는다. 너무 후진각이면 백비드가 거칠어진다."
+    },
+    {
+      "type": "expert_tip",
+      "stage": "transition",
+      "tip": "구간 이음(tie-in)은 이전 비드 끝에서 5~10mm 겹치게 시작하고, 페달을 천천히 올려라. 갑자기 풀 전류를 주면 크레이터에 구멍이 난다."
+    },
+    {
+      "type": "defect_solution",
+      "defect": "burn_through_at_6oclock",
+      "cause": "6시 위치에서 용융지가 처지면서 뚫림. 전류 과다 또는 진행 정지.",
+      "solution": "6시 구간에서는 전류를 다른 구간보다 5~10A 낮추고 진행을 멈추지 않는다."
+    },
+    {
+      "type": "defect_solution",
+      "defect": "tie_in_pinhole",
+      "cause": "이음부에서 크레이터를 제대로 채우지 않고 끊음. 또는 새 비드 시작 시 전류 급상승.",
+      "solution": "끝낼 때 페달을 서서히 내리며 와이어로 크레이터를 채워라. 시작은 이전 비드 5~10mm 위에서."
+    },
+    {
+      "type": "qa",
+      "question": "5G에서 상향과 하향 중 어떤 게 좋나요?",
+      "answer": "구조용 배관은 거의 상향(uphill, 6시→12시)으로 합니다. 입열이 충분히 들어가 미용착이 적습니다."
+    },
+    {
+      "type": "qa",
+      "question": "5G 6시 구간에서 풀이 자꾸 떨어져요.",
+      "answer": "전류가 높습니다. 6시 구간만 5~10A 낮추거나 페달을 절반만 밟으세요. 토치 각도도 거의 수직으로 세워 가스 차폐를 확보하세요."
+    },
+    {
+      "type": "qa",
+      "question": "Lay wire와 Cup walking 중 뭐부터 배워야 하나요?",
+      "answer": "Lay wire가 손이 덜 떨리고 시야 확보가 쉽습니다. 익숙해진 뒤 Cup walking으로 넘어가세요."
+    }
+  ]
+}

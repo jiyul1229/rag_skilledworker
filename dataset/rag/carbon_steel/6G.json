@@ -1,0 +1,76 @@
+{
+  "material": "carbon_steel",
+  "position": "6G",
+  "position_description": "파이프 45° 경사 고정. 모든 자세가 한 비드 안에 포함되는 종합 자격 자세.",
+  "source_ids": ["summary_carbon_steel", "video_cs_6g", "summary_posture_6g"],
+  "parameters": {
+    "tungsten": "2% Ceriated, Ø2.4mm",
+    "filler_rod": "ER70S-2, Ø2.4mm (2 1/2\" SCH80 기준)",
+    "shielding_gas": "100% Argon, 13~15 LPM",
+    "polarity": "DCEN",
+    "root_pass_amp": "85~110A (구간별 페달 조절)",
+    "fill_cap_amp": "95~125A",
+    "technique": "Walking the cup 권장",
+    "root_gap": "2.4mm",
+    "land": "1.5~2.0mm"
+  },
+  "entries": [
+    {
+      "type": "expert_tip",
+      "stage": "fit_up",
+      "tip": "6G는 자세가 90% 이상. 파이프 높이를 가슴~명치 사이로 맞추고, 무릎 한쪽 꿇을 공간을 확보해라."
+    },
+    {
+      "type": "expert_tip",
+      "stage": "root_pass",
+      "tip": "6G 루트는 오버헤드 구간(6시 부근)이 가장 어렵다. 그 구간에서 전류를 낮추고 컵을 꼭 세워라."
+    },
+    {
+      "type": "expert_tip",
+      "stage": "root_pass",
+      "tip": "Walking the cup은 V홈 양쪽 페이스에 컵을 걸치고 좌우로 흔들며 와이어를 살짝 찍는 방식. 한 번 익히면 6G에서 가장 안정적이다."
+    },
+    {
+      "type": "expert_tip",
+      "stage": "posture",
+      "tip": "낮은 구간(6시 부근)은 무릎을 꿇고 팔꿈치를 허벅지에 받쳐라. 높은 구간(12시 부근)은 일어서서 옆구리에 팔꿈치를 붙여라."
+    },
+    {
+      "type": "expert_tip",
+      "stage": "posture",
+      "tip": "시선은 항상 용융지 정면. 마스크 안쪽에서 머리를 돌리지 말고 몸 전체로 따라가라. 호흡은 멈추지 말고 천천히."
+    },
+    {
+      "type": "expert_tip",
+      "stage": "fill_pass",
+      "tip": "필패스는 한 비드에 한 구간씩 끊어 가도 된다. 6G에서 욕심내 한 바퀴 다 돌리려 하면 자세가 무너진다."
+    },
+    {
+      "type": "defect_solution",
+      "defect": "uneven_bead_width",
+      "cause": "자세 전환 시 손 흔들림. 6시 부근에서 컵 압력이 약해짐.",
+      "solution": "자세를 미리 잡고 시작. 6시 구간만 따로 연습. 컵을 양쪽 페이스에 단단히 받쳐라."
+    },
+    {
+      "type": "defect_solution",
+      "defect": "tungsten_touch_in_overhead",
+      "cause": "오버헤드에서 손이 떨리며 텅스텐이 용융지에 닿음.",
+      "solution": "팔꿈치를 무릎이나 옆구리에 단단히 고정. 호흡을 멈추지 말고 천천히 내쉬며 진행."
+    },
+    {
+      "type": "qa",
+      "question": "6G에서 파이프 높이는 어디가 좋나요?",
+      "answer": "용접부 12시 위치가 본인 가슴~명치 사이. 너무 높으면 12시에서 어깨가 들리고, 너무 낮으면 6시에서 무릎이 안 들어갑니다."
+    },
+    {
+      "type": "qa",
+      "question": "6G에서 시선은 어디를 보나요?",
+      "answer": "키홀과 와이어가 만나는 지점, 즉 용융지 앞쪽 끝. 머리를 돌리지 말고 몸 전체로 시계 방향으로 회전하며 따라가세요."
+    },
+    {
+      "type": "qa",
+      "question": "6G 루트에서 6시 구간만 자꾸 실패해요.",
+      "answer": "6시는 오버헤드에 가까워 풀이 떨어집니다. 그 구간만 전류 5~10A 낮추고 컵을 수직으로 세우세요. 자세는 무릎 꿇고 양 팔꿈치 고정이 기본입니다."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+# 영상 원본 (1.3GB) — 별도 공유. README의 영상 받는 법 참고
+dataset/video/*.mp4
+dataset/video/*.mov
+dataset/video/*.webm
+
+# 시크릿
+.env
+*.key
+credentials*.json
+
+# 런타임 산출물
+rag_pipeline/uploads/
+rag_pipeline/__pycache__/
+__pycache__/
+*.pyc
+*.pyo
+
+# Claude Code 세션
+.claude/
+
+# IDE / OS
+.venv/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 로그
+*.log
+nohup.out
+server.log

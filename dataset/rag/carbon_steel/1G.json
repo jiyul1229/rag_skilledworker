@@ -1,0 +1,82 @@
+{
+  "material": "carbon_steel",
+  "position": "1G",
+  "position_description": "파이프 회전, 토치 고정. 가장 기본/연습 자세.",
+  "source_ids": ["summary_carbon_steel", "video_cs_1g"],
+  "parameters": {
+    "tungsten": "2% Ceriated 또는 2% Thoriated, Ø2.4mm, 60~75° 그라인딩",
+    "filler_rod": "ER70S-2 또는 ER70S-6, Ø2.4mm",
+    "shielding_gas": "100% Argon, 12~15 LPM",
+    "backing_gas": "탄소강은 보통 불필요",
+    "polarity": "DCEN (직류 정극성)",
+    "root_pass_amp": "85~110A (4인치 SCH40 기준)",
+    "fill_cap_amp": "100~130A",
+    "root_gap": "2.4mm (와이어 굵기와 동일)",
+    "land": "1.5~2.0mm"
+  },
+  "entries": [
+    {
+      "type": "expert_tip",
+      "stage": "fit_up",
+      "tip": "1G는 연습 자세니까 파이프를 일정 속도로 돌리는 것이 가장 중요. 회전 속도가 흔들리면 비드 폭도 흔들린다."
+    },
+    {
+      "type": "expert_tip",
+      "stage": "root_pass",
+      "tip": "키홀(keyhole)이 동전 모양으로 일정하게 보이면 잘 녹고 있는 것. 키홀이 사라지면 입열이 부족한 신호다."
+    },
+    {
+      "type": "expert_tip",
+      "stage": "root_pass",
+      "tip": "아크 길이는 텅스텐 굵기 정도(약 2~3mm) 유지. 너무 길면 백비드가 솟고, 너무 짧으면 텅스텐이 모재에 닿아 오염된다."
+    },
+    {
+      "type": "expert_tip",
+      "stage": "root_pass",
+      "tip": "와이어는 키홀 앞쪽 끝(12시 방향)에 살짝 찍어서 녹인다. 용융지 한가운데 깊이 넣으면 와이어가 텅스텐에 붙는다."
+    },
+    {
+      "type": "expert_tip",
+      "stage": "fill_pass",
+      "tip": "필패스는 위빙(weaving) 폭을 비드 폭의 2.5배 이내로 유지. 더 넓게 흔들면 옆면이 덜 녹는다."
+    },
+    {
+      "type": "expert_tip",
+      "stage": "cap_pass",
+      "tip": "캡은 양쪽 모서리에서 0.5초씩 머물러야 언더컷이 안 생긴다. 가운데는 빠르게 통과."
+    },
+    {
+      "type": "defect_solution",
+      "defect": "burn_through",
+      "cause": "전류가 높거나 회전 속도가 너무 느려 입열이 누적됨.",
+      "solution": "전류를 5~10A 낮추거나 회전 속도를 빠르게. 그래도 뚫리면 그라인더로 따서 다시 시작."
+    },
+    {
+      "type": "defect_solution",
+      "defect": "lack_of_penetration",
+      "cause": "갭이 너무 좁거나 전류가 낮음. 또는 토치 각도가 후진각으로 너무 누움.",
+      "solution": "갭을 와이어 굵기만큼 확보, 전류 5A 상향, 토치를 진행 방향에 5~10° 후진각으로만 살짝 기울인다."
+    },
+    {
+      "type": "defect_solution",
+      "defect": "tungsten_contamination",
+      "cause": "텅스텐이 용융지 또는 와이어에 닿아 회색/검은색 오염 발생.",
+      "solution": "용접 중지, 텅스텐 끝을 그라인더로 재연마. 오염된 비드 부분은 그라인더로 제거 후 재시작."
+    },
+    {
+      "type": "qa",
+      "question": "1G에서 와이어를 어디에 찍어야 하나요?",
+      "answer": "키홀 앞쪽, 용융지 입구 끝부분에 살짝 찍었다 빼세요. 깊이 쑤시지 마세요."
+    },
+    {
+      "type": "qa",
+      "question": "1G에서 파이프 회전 속도는 어떻게 정하나요?",
+      "answer": "1초에 비드 폭의 약 절반만큼 진행한다는 감각으로. 처음엔 분필로 시계 방향 4등분을 표시하고 각 구간을 같은 시간에 통과하도록 연습하세요."
+    },
+    {
+      "type": "qa",
+      "question": "1G에서 어느 시계 방향으로 용접하나요?",
+      "answer": "보통 12시에서 1시 방향 사이를 고정 위치로 잡고, 파이프를 시계 반대로 돌리면서 그 위치에서만 용접합니다."
+    }
+  ]
+}

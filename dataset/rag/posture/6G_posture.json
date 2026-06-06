@@ -1,0 +1,96 @@
+{
+  "topic": "posture",
+  "position": "6G",
+  "scope": "재질 무관 · 6G 자세 전반 (높이설정, 기본자세, 시선/무게중심, 낮은자세, 높은자세)",
+  "source_ids": [
+    "summary_posture_6g",
+    "video_posture_height",
+    "video_posture_basic",
+    "video_posture_gaze",
+    "video_posture_low",
+    "video_posture_high"
+  ],
+  "entries": [
+    {
+      "type": "expert_tip",
+      "subtopic": "height_setup",
+      "tip": "모재 12시 위치를 본인 명치~가슴 사이로 맞춰라. 더 높으면 12시에서 어깨가 들리고, 더 낮으면 6시에서 무릎이 안 들어간다."
+    },
+    {
+      "type": "expert_tip",
+      "subtopic": "height_setup",
+      "tip": "엉성한 높이 설정이 6G 실패의 70%. 시작 전 분필로 12시 마크를 찍고 마스크 쓰고 자세를 미리 잡아봐라."
+    },
+    {
+      "type": "expert_tip",
+      "subtopic": "basic_stance",
+      "tip": "초보자는 일단 높은자세부터 마스터해라. 다리 어깨너비, 등 곧게, 양 팔꿈치 옆구리 고정. 이 자세로 한 바퀴를 안정적으로 돌면 낮은자세는 따라온다."
+    },
+    {
+      "type": "expert_tip",
+      "subtopic": "basic_stance",
+      "tip": "토치를 잡은 팔의 팔꿈치는 무조건 어딘가에 받쳐라(허벅지/옆구리/턱). 공중에 떠 있으면 비드가 흔들린다."
+    },
+    {
+      "type": "expert_tip",
+      "subtopic": "gaze_balance",
+      "tip": "시선은 마스크 안에서 머리를 돌리지 말고, 용융지 정면에 항상 고정. 몸 전체로 시계 방향을 따라가라."
+    },
+    {
+      "type": "expert_tip",
+      "subtopic": "gaze_balance",
+      "tip": "무게중심은 항상 두 발 사이. 자세를 바꿀 때 한쪽으로 쏠리면 토치도 같이 흔들린다."
+    },
+    {
+      "type": "expert_tip",
+      "subtopic": "gaze_balance",
+      "tip": "호흡은 멈추지 마라. 천천히 내쉬며 진행하면 손 떨림이 절반으로 준다. 한 호흡 = 한 와이어 찍기 리듬."
+    },
+    {
+      "type": "expert_tip",
+      "subtopic": "low_stance",
+      "tip": "낮은자세(6시 부근): 무릎 한쪽 꿇고 다른 발 90° 세우기. 토치 잡은 팔꿈치를 세운 무릎 위에 받친다."
+    },
+    {
+      "type": "expert_tip",
+      "subtopic": "low_stance",
+      "tip": "낮은자세에서 마스크가 모재에 부딪히지 않게 머리를 살짝 옆으로 빼라. 정면에서 들이대면 마스크 코끝이 파이프에 닿는다."
+    },
+    {
+      "type": "expert_tip",
+      "subtopic": "high_stance",
+      "tip": "높은자세(12시 부근): 다리 어깨너비, 등 곧게, 어깨 들지 마라. 어깨가 들리면 1분 이내에 팔이 떨린다."
+    },
+    {
+      "type": "expert_tip",
+      "subtopic": "high_stance",
+      "tip": "높은자세에서 토치를 잡은 팔의 팔꿈치는 옆구리에 붙여 고정. 와이어 잡은 팔꿈치는 다른 쪽 손목에 받쳐도 좋다."
+    },
+    {
+      "type": "defect_solution",
+      "defect": "uneven_bead_due_to_posture",
+      "cause": "자세 전환 시 손 흔들림, 어깨 들림, 호흡 멈춤.",
+      "solution": "자세 전환은 비드 시작 전에 미리. 자세를 잡지 못한 상태로 페달 밟지 마라. 어깨를 내리고 천천히 호흡."
+    },
+    {
+      "type": "qa",
+      "question": "6G에서 파이프 높이는 어떻게 정해요?",
+      "answer": "12시 위치가 본인 명치~가슴 사이. 마스크 쓰고 자세를 잡았을 때 12시와 6시 모두 무리 없이 보이는 높이가 정답입니다."
+    },
+    {
+      "type": "qa",
+      "question": "초보자는 낮은자세와 높은자세 중 뭘 먼저 배워요?",
+      "answer": "높은자세부터. 다리 어깨너비, 등 곧게, 팔꿈치 옆구리 고정. 이 자세로 12시 구간 30초 비드 없이 유지가 되면 낮은자세로 넘어가세요."
+    },
+    {
+      "type": "qa",
+      "question": "용접 중 어디를 보고 있어야 하나요?",
+      "answer": "용융지 앞쪽 끝, 키홀과 와이어가 만나는 지점. 머리를 돌리지 말고 몸 전체를 시계 방향으로 같이 돌리세요."
+    },
+    {
+      "type": "qa",
+      "question": "한 바퀴 돌고 나면 팔이 너무 떨려요.",
+      "answer": "팔꿈치가 공중에 떠 있을 가능성이 큽니다. 어딘가에 무조건 받치세요. 어깨가 들리지 않게 의식하고, 호흡을 멈추지 마세요."
+    }
+  ]
+}

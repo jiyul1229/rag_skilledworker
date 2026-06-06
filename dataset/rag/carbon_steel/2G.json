@@ -1,0 +1,60 @@
+{
+  "material": "carbon_steel",
+  "position": "2G",
+  "position_description": "파이프 수직 고정, 용접선은 수평. 옆면에서 횡진 용접.",
+  "source_ids": ["summary_carbon_steel", "video_cs_2g"],
+  "parameters": {
+    "tungsten": "2% Ceriated, Ø2.4mm, 60° 그라인딩",
+    "filler_rod": "ER70S-2/ER70S-6, Ø2.4mm",
+    "shielding_gas": "100% Argon, 12~15 LPM",
+    "polarity": "DCEN",
+    "root_pass_amp": "80~100A",
+    "fill_cap_amp": "95~120A",
+    "root_gap": "2.4mm",
+    "land": "1.5~2.0mm"
+  },
+  "entries": [
+    {
+      "type": "expert_tip",
+      "stage": "root_pass",
+      "tip": "2G는 중력 때문에 용융지가 아래로 흐른다. 전류를 1G보다 5~10A 낮춰 용융지를 작게 유지."
+    },
+    {
+      "type": "expert_tip",
+      "stage": "root_pass",
+      "tip": "토치를 살짝 위로 기울여(상향 5~10°) 용융지를 아래로 흘리지 않게 한다."
+    },
+    {
+      "type": "expert_tip",
+      "stage": "fill_pass",
+      "tip": "필패스는 아래쪽 토에 더 머물러서 위쪽으로 비드를 쌓아 올린다. 아래로 처지는 비드는 다음 패스에서 못 살린다."
+    },
+    {
+      "type": "expert_tip",
+      "stage": "cap_pass",
+      "tip": "캡은 비드를 2~3줄로 나눠 쌓는 멀티 스트링거가 안전. 한 번에 위빙하면 윗쪽 토에 언더컷."
+    },
+    {
+      "type": "defect_solution",
+      "defect": "undercut_upper_toe",
+      "cause": "캡 패스에서 위쪽 토에 머무는 시간이 부족하거나 전류가 과다.",
+      "solution": "위쪽 토에서 0.5초 더 머물고, 위빙 끝점을 모재 위에 정확히 멈춰라. 전류 5A 하향."
+    },
+    {
+      "type": "defect_solution",
+      "defect": "sagging_bead",
+      "cause": "전류 과다, 진행 속도 느림, 용융지 과대.",
+      "solution": "전류를 낮추고 토치 진행을 더 빠르게. 와이어 투입량을 늘려 용융지를 식혀라."
+    },
+    {
+      "type": "qa",
+      "question": "2G에서 비드가 자꾸 아래로 처지는데요?",
+      "answer": "전류를 5~10A 낮추고 토치를 위로 약간 기울이세요. 와이어를 조금 더 자주 찍어서 풀을 식히는 것도 효과적입니다."
+    },
+    {
+      "type": "qa",
+      "question": "2G 캡을 한 줄로 위빙해도 되나요?",
+      "answer": "두께 5mm 이하면 한 줄 위빙도 가능하지만, 그 이상은 2~3 스트링거(stringer)로 쌓는 게 안전합니다."
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "material": "stainless",
+  "position": "1G",
+  "position_description": "파이프 회전, 토치 고정. 백비드 산화 관리가 핵심.",
+  "source_ids": ["summary_stainless", "video_ss_1g"],
+  "parameters": {
+    "tungsten": "2% Lanthanated(파랑) 또는 2% Ceriated, Ø2.4mm, 30~45° 뾰족하게",
+    "filler_rod": "ER308L (304용) 또는 ER316L (316용), Ø2.4mm",
+    "shielding_gas": "100% Argon, 10~12 LPM",
+    "backing_gas": "100% Argon, 5~8 LPM (필수, 산화 방지)",
+    "polarity": "DCEN",
+    "root_pass_amp": "70~90A",
+    "fill_cap_amp": "85~110A",
+    "interpass_temp_max": "175°C",
+    "root_gap": "2.4mm",
+    "land": "1.5mm"
+  },
+  "entries": [
+    {
+      "type": "expert_tip",
+      "stage": "preparation",
+      "tip": "스테인리스는 백퍼지(backing gas)가 필수. 양 끝을 마스킹 테이프로 막고 내부에 아르곤을 흘려 산소를 밀어낸 뒤 시작."
+    },
+    {
+      "type": "expert_tip",
+      "stage": "preparation",
+      "tip": "퍼지 시간은 파이프 부피의 5~7배 가스 부피가 들어가도록 기다려라. 4인치 SCH40 1m면 약 3~5분."
+    },
+    {
+      "type": "expert_tip",
+      "stage": "root_pass",
+      "tip": "백비드 색은 짚색(밀짚, straw) 또는 은색이면 합격. 청색/회색은 산화가 진행 중, 검정/녹색은 불량."
+    },
+    {
+      "type": "expert_tip",
+      "stage": "root_pass",
+      "tip": "전류는 탄소강보다 10~15A 낮춰라. 스테인리스는 열전도율이 낮아 같은 전류면 풀이 커진다."
+    },
+    {
+      "type": "expert_tip",
+      "stage": "fill_cap",
+      "tip": "인터패스 온도 175°C 넘기지 마라. 손등을 비드 옆에 댔을 때 2초 안에 떼야 할 정도면 식혀라."
+    },
+    {
+      "type": "defect_solution",
+      "defect": "back_bead_oxidation",
+      "cause": "퍼지 가스 부족, 퍼지 시간 부족, 또는 누설.",
+      "solution": "퍼지 유량 5~8 LPM 확보, 5분 이상 퍼지, 마스킹 누설 확인. 비드 색이 청색 이상이면 그라인더로 제거 후 재용접."
+    },
+    {
+      "type": "defect_solution",
+      "defect": "carbide_precipitation",
+      "cause": "인터패스 온도가 너무 높아 크롬 카바이드 석출. 내식성 저하.",
+      "solution": "패스 사이에 충분히 식혀라(175°C 이하). L 등급 와이어(저탄소) 사용."
+    },
+    {
+      "type": "defect_solution",
+      "defect": "crack_at_crater",
+      "cause": "크레이터를 채우지 않고 끊어 응고 크랙 발생.",
+      "solution": "끝낼 때 페달을 천천히 내리며 와이어로 크레이터를 채워라. 그라인더로 크레이터 따고 재시작도 가능."
+    },
+    {
+      "type": "qa",
+      "question": "스테인리스 백퍼지는 왜 해야 하나요?",
+      "answer": "스테인리스 뒷면이 공기에 닿으면 크롬이 산화돼 검은 비드와 부식 취약부가 됩니다. 안쪽에 아르곤을 채워 산소를 밀어내야 짚색~은색 백비드가 나옵니다."
+    },
+    {
+      "type": "qa",
+      "question": "백비드 색이 청색이면 다시 해야 하나요?",
+      "answer": "청색은 산화가 시작된 단계로 외관 검사에서 불합격일 가능성이 높습니다. 짚색/은색이 정상이고, 청색 이상이면 그라인더로 제거 후 재용접하세요."
+    },
+    {
+      "type": "qa",
+      "question": "텅스텐 끝은 얼마나 뾰족하게 갈아야 하나요?",
+      "answer": "스테인리스는 30~45°로 길게 뾰족하게 가세요. 끝은 살짝 평탄(약 0.3mm)으로 마무리. 너무 뭉뚝하면 아크가 퍼지고 키홀이 흐려집니다."
+    }
+  ]
+}
